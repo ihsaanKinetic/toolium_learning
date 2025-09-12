@@ -20,8 +20,8 @@ from selenium.webdriver.common.by import By
 
 from toolium.pageobjects.page_object import PageObject
 from toolium.pageelements import *
-from web_behave.pageobjects.message import MessagePageObject
-from web_behave.pageobjects.secure_area import SecureAreaPageObject
+from pageobjects.message import MessagePageObject
+from pageobjects.secure_area import SecureAreaPageObject
 
 
 class LoginPageObject(PageObject):

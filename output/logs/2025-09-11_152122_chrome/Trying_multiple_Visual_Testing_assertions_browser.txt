@@ -1,5 +1,0 @@
-
-2025-09-11 15:24:13.033609 'Trying_multiple_Visual_Testing_assertions' test logs with driver = chrome
-
-2025-09-11 15:24:11.250000	SEVERE	https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1757597051223r0.952534248725987&wxhr=true&t=1757597051228&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
-2025-09-11 15:24:12.703000	SEVERE	https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)

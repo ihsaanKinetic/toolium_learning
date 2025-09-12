@@ -18,7 +18,7 @@ limitations under the License.
 
 from behave import given, when, then
 
-from web_behave.pageobjects.login import LoginPageObject
+from pageobjects.login import LoginPageObject
 
 
 @given('the login page is open')
