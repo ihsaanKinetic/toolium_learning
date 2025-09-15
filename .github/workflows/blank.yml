@@ -23,21 +23,18 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: ls -la
-
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Install dependencies
         run: |
           echo check directory
           pwd
           echo check python version
           python --version
+          
+          pip install -r requirements.txt
           echo check pip list
           pip list
-          pip install -r requirements.txt
 
       - name: Execute behave
         run: |
